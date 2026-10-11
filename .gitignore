@@ -1,0 +1,4 @@
+/output/paper/final/
+.venv/
+frontend/node_modules/
+.run/

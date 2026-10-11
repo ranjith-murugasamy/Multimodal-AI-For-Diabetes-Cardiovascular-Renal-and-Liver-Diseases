@@ -1,0 +1,601 @@
+disease,learner,variant,fold,n_train,n_test,auroc,f1
+Diabetes,LightGBM,Baseline (original features),0,614,154,0.812037037037037,0.6371681415929203
+Diabetes,LightGBM,Original + network scores,0,614,154,0.8064814814814815,0.6371681415929203
+Diabetes,LightGBM,Network scores only,0,614,154,0.6840740740740741,0.46601941747572817
+Diabetes,Random Forest,Baseline (original features),0,614,154,0.8325,0.6728971962616822
+Diabetes,Random Forest,Original + network scores,0,614,154,0.8347222222222223,0.6851851851851852
+Diabetes,Random Forest,Network scores only,0,614,154,0.6788888888888889,0.4444444444444444
+Diabetes,LightGBM,Baseline (original features),1,614,154,0.8514814814814815,0.6788990825688074
+Diabetes,LightGBM,Original + network scores,1,614,154,0.852037037037037,0.7433628318584071
+Diabetes,LightGBM,Network scores only,1,614,154,0.7152777777777778,0.5306122448979592
+Diabetes,Random Forest,Baseline (original features),1,614,154,0.8651851851851852,0.7142857142857143
+Diabetes,Random Forest,Original + network scores,1,614,154,0.8566666666666667,0.7207207207207207
+Diabetes,Random Forest,Network scores only,1,614,154,0.6890740740740741,0.4752475247524752
+Diabetes,LightGBM,Baseline (original features),2,614,154,0.7662962962962963,0.5742574257425742
+Diabetes,LightGBM,Original + network scores,2,614,154,0.7637037037037038,0.5918367346938775
+Diabetes,LightGBM,Network scores only,2,614,154,0.7019444444444445,0.48
+Diabetes,Random Forest,Baseline (original features),2,614,154,0.757962962962963,0.5510204081632653
+Diabetes,Random Forest,Original + network scores,2,614,154,0.7626851851851851,0.56
+Diabetes,Random Forest,Network scores only,2,614,154,0.6645370370370371,0.3838383838383838
+Diabetes,LightGBM,Baseline (original features),3,615,153,0.8379245283018868,0.5714285714285714
+Diabetes,LightGBM,Original + network scores,3,615,153,0.8403773584905662,0.6021505376344086
+Diabetes,LightGBM,Network scores only,3,615,153,0.7020754716981131,0.5148514851485149
+Diabetes,Random Forest,Baseline (original features),3,615,153,0.8703773584905661,0.7083333333333334
+Diabetes,Random Forest,Original + network scores,3,615,153,0.8648113207547169,0.7010309278350515
+Diabetes,Random Forest,Network scores only,3,615,153,0.6741509433962264,0.40860215053763443
+Diabetes,LightGBM,Baseline (original features),4,615,153,0.7949056603773584,0.6464646464646465
+Diabetes,LightGBM,Original + network scores,4,615,153,0.7884905660377359,0.6122448979591837
+Diabetes,LightGBM,Network scores only,4,615,153,0.6716037735849056,0.3917525773195876
+Diabetes,Random Forest,Baseline (original features),4,615,153,0.8188679245283018,0.6292134831460674
+Diabetes,Random Forest,Original + network scores,4,615,153,0.809433962264151,0.5517241379310345
+Diabetes,Random Forest,Network scores only,4,615,153,0.7056603773584906,0.4631578947368421
+Diabetes,LightGBM,Baseline (original features),5,614,154,0.8061111111111112,0.6407766990291263
+Diabetes,LightGBM,Original + network scores,5,614,154,0.8153703703703703,0.6732673267326733
+Diabetes,LightGBM,Network scores only,5,614,154,0.6370370370370371,0.3673469387755102
+Diabetes,Random Forest,Baseline (original features),5,614,154,0.8147222222222222,0.6105263157894737
+Diabetes,Random Forest,Original + network scores,5,614,154,0.8142592592592592,0.6530612244897959
+Diabetes,Random Forest,Network scores only,5,614,154,0.6462962962962963,0.41304347826086957
+Diabetes,LightGBM,Baseline (original features),6,614,154,0.8185185185185185,0.6542056074766355
+Diabetes,LightGBM,Original + network scores,6,614,154,0.8038888888888889,0.6415094339622641
+Diabetes,LightGBM,Network scores only,6,614,154,0.7129629629629629,0.5052631578947369
+Diabetes,Random Forest,Baseline (original features),6,614,154,0.845,0.6355140186915887
+Diabetes,Random Forest,Original + network scores,6,614,154,0.8390740740740741,0.6728971962616822
+Diabetes,Random Forest,Network scores only,6,614,154,0.664074074074074,0.3877551020408163
+Diabetes,LightGBM,Baseline (original features),7,614,154,0.8294444444444444,0.660377358490566
+Diabetes,LightGBM,Original + network scores,7,614,154,0.8303703703703703,0.660377358490566
+Diabetes,LightGBM,Network scores only,7,614,154,0.7232407407407407,0.52
+Diabetes,Random Forest,Baseline (original features),7,614,154,0.8438888888888888,0.6666666666666666
+Diabetes,Random Forest,Original + network scores,7,614,154,0.8262962962962963,0.693069306930693
+Diabetes,Random Forest,Network scores only,7,614,154,0.6791666666666667,0.4583333333333333
+Diabetes,LightGBM,Baseline (original features),8,615,153,0.8186792452830188,0.6185567010309279
+Diabetes,LightGBM,Original + network scores,8,615,153,0.8288679245283018,0.6170212765957447
+Diabetes,LightGBM,Network scores only,8,615,153,0.7375471698113207,0.4175824175824176
+Diabetes,Random Forest,Baseline (original features),8,615,153,0.8513207547169811,0.5934065934065934
+Diabetes,Random Forest,Original + network scores,8,615,153,0.8443396226415094,0.5934065934065934
+Diabetes,Random Forest,Network scores only,8,615,153,0.7324528301886793,0.4318181818181818
+Diabetes,LightGBM,Baseline (original features),9,615,153,0.7537735849056604,0.5607476635514018
+Diabetes,LightGBM,Original + network scores,9,615,153,0.7388679245283019,0.5357142857142857
+Diabetes,LightGBM,Network scores only,9,615,153,0.6587735849056603,0.4375
+Diabetes,Random Forest,Baseline (original features),9,615,153,0.7668867924528302,0.5818181818181818
+Diabetes,Random Forest,Original + network scores,9,615,153,0.7632075471698113,0.5904761904761905
+Diabetes,Random Forest,Network scores only,9,615,153,0.6459433962264151,0.4
+Diabetes,LightGBM,Baseline (original features),10,614,154,0.8340740740740741,0.6981132075471698
+Diabetes,LightGBM,Original + network scores,10,614,154,0.8298148148148148,0.6060606060606061
+Diabetes,LightGBM,Network scores only,10,614,154,0.6841666666666667,0.48
+Diabetes,Random Forest,Baseline (original features),10,614,154,0.8523148148148147,0.6796116504854369
+Diabetes,Random Forest,Original + network scores,10,614,154,0.8475925925925926,0.6464646464646465
+Diabetes,Random Forest,Network scores only,10,614,154,0.6821296296296298,0.44680851063829785
+Diabetes,LightGBM,Baseline (original features),11,614,154,0.8231481481481482,0.6542056074766355
+Diabetes,LightGBM,Original + network scores,11,614,154,0.8211111111111111,0.6355140186915887
+Diabetes,LightGBM,Network scores only,11,614,154,0.6777777777777778,0.4444444444444444
+Diabetes,Random Forest,Baseline (original features),11,614,154,0.8216666666666665,0.6666666666666666
+Diabetes,Random Forest,Original + network scores,11,614,154,0.8264814814814815,0.6727272727272727
+Diabetes,Random Forest,Network scores only,11,614,154,0.6866666666666666,0.41237113402061853
+Diabetes,LightGBM,Baseline (original features),12,614,154,0.7553703703703704,0.6037735849056604
+Diabetes,LightGBM,Original + network scores,12,614,154,0.7551851851851852,0.6126126126126126
+Diabetes,LightGBM,Network scores only,12,614,154,0.611111111111111,0.4077669902912621
+Diabetes,Random Forest,Baseline (original features),12,614,154,0.7660185185185185,0.5961538461538461
+Diabetes,Random Forest,Original + network scores,12,614,154,0.7685185185185185,0.5686274509803921
+Diabetes,Random Forest,Network scores only,12,614,154,0.6048148148148148,0.36538461538461536
+Diabetes,LightGBM,Baseline (original features),13,615,153,0.84,0.6086956521739131
+Diabetes,LightGBM,Original + network scores,13,615,153,0.8267924528301888,0.6521739130434783
+Diabetes,LightGBM,Network scores only,13,615,153,0.7296226415094339,0.5294117647058824
+Diabetes,Random Forest,Baseline (original features),13,615,153,0.8677358490566037,0.6666666666666666
+Diabetes,Random Forest,Original + network scores,13,615,153,0.8516981132075471,0.6736842105263158
+Diabetes,Random Forest,Network scores only,13,615,153,0.679811320754717,0.43956043956043955
+Diabetes,LightGBM,Baseline (original features),14,615,153,0.809245283018868,0.5714285714285714
+Diabetes,LightGBM,Original + network scores,14,615,153,0.8071698113207547,0.64
+Diabetes,LightGBM,Network scores only,14,615,153,0.7086792452830188,0.5294117647058824
+Diabetes,Random Forest,Baseline (original features),14,615,153,0.8516981132075472,0.6458333333333334
+Diabetes,Random Forest,Original + network scores,14,615,153,0.8335849056603774,0.6597938144329897
+Diabetes,Random Forest,Network scores only,14,615,153,0.700188679245283,0.47058823529411764
+Diabetes,LightGBM,Baseline (original features),15,614,154,0.7725925925925925,0.5631067961165048
+Diabetes,LightGBM,Original + network scores,15,614,154,0.792962962962963,0.6037735849056604
+Diabetes,LightGBM,Network scores only,15,614,154,0.6844444444444444,0.5045045045045045
+Diabetes,Random Forest,Baseline (original features),15,614,154,0.8043518518518519,0.6422018348623854
+Diabetes,Random Forest,Original + network scores,15,614,154,0.7939814814814815,0.6666666666666666
+Diabetes,Random Forest,Network scores only,15,614,154,0.6933333333333334,0.48148148148148145
+Diabetes,LightGBM,Baseline (original features),16,614,154,0.8398148148148148,0.6326530612244898
+Diabetes,LightGBM,Original + network scores,16,614,154,0.8479629629629629,0.6530612244897959
+Diabetes,LightGBM,Network scores only,16,614,154,0.7405555555555555,0.4666666666666667
+Diabetes,Random Forest,Baseline (original features),16,614,154,0.8260185185185185,0.6153846153846154
+Diabetes,Random Forest,Original + network scores,16,614,154,0.8387037037037037,0.6236559139784946
+Diabetes,Random Forest,Network scores only,16,614,154,0.721574074074074,0.35294117647058826
+Diabetes,LightGBM,Baseline (original features),17,614,154,0.7861111111111111,0.6078431372549019
+Diabetes,LightGBM,Original + network scores,17,614,154,0.7887037037037037,0.594059405940594
+Diabetes,LightGBM,Network scores only,17,614,154,0.6802777777777778,0.5
+Diabetes,Random Forest,Baseline (original features),17,614,154,0.8194444444444445,0.5833333333333334
+Diabetes,Random Forest,Original + network scores,17,614,154,0.8023148148148148,0.6530612244897959
+Diabetes,Random Forest,Network scores only,17,614,154,0.6547222222222222,0.47058823529411764
+Diabetes,LightGBM,Baseline (original features),18,615,153,0.8147169811320755,0.6422018348623854
+Diabetes,LightGBM,Original + network scores,18,615,153,0.8120754716981132,0.5961538461538461
+Diabetes,LightGBM,Network scores only,18,615,153,0.6816981132075473,0.40425531914893614
+Diabetes,Random Forest,Baseline (original features),18,615,153,0.8294339622641509,0.64
+Diabetes,Random Forest,Original + network scores,18,615,153,0.8351886792452831,0.6060606060606061
+Diabetes,Random Forest,Network scores only,18,615,153,0.6786792452830189,0.3711340206185567
+Diabetes,LightGBM,Baseline (original features),19,615,153,0.8441509433962264,0.6336633663366337
+Diabetes,LightGBM,Original + network scores,19,615,153,0.8332075471698114,0.6534653465346535
+Diabetes,LightGBM,Network scores only,19,615,153,0.683490566037736,0.5346534653465347
+Diabetes,Random Forest,Baseline (original features),19,615,153,0.8465094339622642,0.6990291262135923
+Diabetes,Random Forest,Original + network scores,19,615,153,0.8500000000000001,0.693069306930693
+Diabetes,Random Forest,Network scores only,19,615,153,0.6722641509433963,0.49523809523809526
+Diabetes,LightGBM,Baseline (original features),20,614,154,0.8694444444444445,0.7169811320754716
+Diabetes,LightGBM,Original + network scores,20,614,154,0.8679629629629629,0.7358490566037735
+Diabetes,LightGBM,Network scores only,20,614,154,0.6840740740740741,0.46464646464646464
+Diabetes,Random Forest,Baseline (original features),20,614,154,0.8655555555555555,0.7358490566037735
+Diabetes,Random Forest,Original + network scores,20,614,154,0.864537037037037,0.7272727272727273
+Diabetes,Random Forest,Network scores only,20,614,154,0.6762962962962963,0.4375
+Diabetes,LightGBM,Baseline (original features),21,614,154,0.7977777777777778,0.5684210526315789
+Diabetes,LightGBM,Original + network scores,21,614,154,0.8018518518518518,0.5652173913043478
+Diabetes,LightGBM,Network scores only,21,614,154,0.7487037037037038,0.5263157894736842
+Diabetes,Random Forest,Baseline (original features),21,614,154,0.8024074074074075,0.5652173913043478
+Diabetes,Random Forest,Original + network scores,21,614,154,0.7962037037037036,0.5617977528089888
+Diabetes,Random Forest,Network scores only,21,614,154,0.7427777777777778,0.5
+Diabetes,LightGBM,Baseline (original features),22,614,154,0.7753703703703704,0.5510204081632653
+Diabetes,LightGBM,Original + network scores,22,614,154,0.7683333333333334,0.5306122448979592
+Diabetes,LightGBM,Network scores only,22,614,154,0.7075,0.4444444444444444
+Diabetes,Random Forest,Baseline (original features),22,614,154,0.7852777777777779,0.5979381443298969
+Diabetes,Random Forest,Original + network scores,22,614,154,0.775,0.5473684210526316
+Diabetes,Random Forest,Network scores only,22,614,154,0.6806481481481481,0.40425531914893614
+Diabetes,LightGBM,Baseline (original features),23,615,153,0.8175471698113207,0.6285714285714286
+Diabetes,LightGBM,Original + network scores,23,615,153,0.8028301886792453,0.6285714285714286
+Diabetes,LightGBM,Network scores only,23,615,153,0.729811320754717,0.5346534653465347
+Diabetes,Random Forest,Baseline (original features),23,615,153,0.8456603773584906,0.6923076923076923
+Diabetes,Random Forest,Original + network scores,23,615,153,0.8537735849056604,0.7184466019417476
+Diabetes,Random Forest,Network scores only,23,615,153,0.7067924528301887,0.49523809523809526
+Diabetes,LightGBM,Baseline (original features),24,615,153,0.7769811320754717,0.5504587155963303
+Diabetes,LightGBM,Original + network scores,24,615,153,0.7575471698113208,0.5486725663716814
+Diabetes,LightGBM,Network scores only,24,615,153,0.6018867924528302,0.3695652173913043
+Diabetes,Random Forest,Baseline (original features),24,615,153,0.7869811320754717,0.6019417475728155
+Diabetes,Random Forest,Original + network scores,24,615,153,0.7911320754716981,0.58
+Diabetes,Random Forest,Network scores only,24,615,153,0.6230188679245283,0.391304347826087
+Cardiovascular,LightGBM,Baseline (original features),0,216,54,0.8680555555555555,0.6938775510204082
+Cardiovascular,LightGBM,Original + network scores,0,216,54,0.8513888888888889,0.7391304347826086
+Cardiovascular,LightGBM,Network scores only,0,216,54,0.8361111111111111,0.7083333333333334
+Cardiovascular,Random Forest,Baseline (original features),0,216,54,0.8819444444444445,0.7659574468085106
+Cardiovascular,Random Forest,Original + network scores,0,216,54,0.8875000000000001,0.7659574468085106
+Cardiovascular,Random Forest,Network scores only,0,216,54,0.875,0.7391304347826086
+Cardiovascular,LightGBM,Baseline (original features),1,216,54,0.8097222222222222,0.6521739130434783
+Cardiovascular,LightGBM,Original + network scores,1,216,54,0.8013888888888889,0.75
+Cardiovascular,LightGBM,Network scores only,1,216,54,0.7541666666666668,0.6666666666666666
+Cardiovascular,Random Forest,Baseline (original features),1,216,54,0.7944444444444444,0.75
+Cardiovascular,Random Forest,Original + network scores,1,216,54,0.8201388888888889,0.7083333333333334
+Cardiovascular,Random Forest,Network scores only,1,216,54,0.8027777777777778,0.6808510638297872
+Cardiovascular,LightGBM,Baseline (original features),2,216,54,0.9152777777777777,0.8260869565217391
+Cardiovascular,LightGBM,Original + network scores,2,216,54,0.9,0.8
+Cardiovascular,LightGBM,Network scores only,2,216,54,0.8458333333333333,0.6521739130434783
+Cardiovascular,Random Forest,Baseline (original features),2,216,54,0.9263888888888889,0.8260869565217391
+Cardiovascular,Random Forest,Original + network scores,2,216,54,0.925,0.8085106382978723
+Cardiovascular,Random Forest,Network scores only,2,216,54,0.8736111111111111,0.75
+Cardiovascular,LightGBM,Baseline (original features),3,216,54,0.9152777777777779,0.7142857142857143
+Cardiovascular,LightGBM,Original + network scores,3,216,54,0.8805555555555555,0.7441860465116279
+Cardiovascular,LightGBM,Network scores only,3,216,54,0.9069444444444444,0.7727272727272727
+Cardiovascular,Random Forest,Baseline (original features),3,216,54,0.9215277777777778,0.8
+Cardiovascular,Random Forest,Original + network scores,3,216,54,0.9305555555555556,0.8095238095238095
+Cardiovascular,Random Forest,Network scores only,3,216,54,0.8944444444444445,0.8095238095238095
+Cardiovascular,LightGBM,Baseline (original features),4,216,54,0.8805555555555555,0.7727272727272727
+Cardiovascular,LightGBM,Original + network scores,4,216,54,0.8513888888888889,0.6956521739130435
+Cardiovascular,LightGBM,Network scores only,4,216,54,0.8958333333333335,0.8260869565217391
+Cardiovascular,Random Forest,Baseline (original features),4,216,54,0.9291666666666667,0.8372093023255814
+Cardiovascular,Random Forest,Original + network scores,4,216,54,0.9180555555555555,0.8372093023255814
+Cardiovascular,Random Forest,Network scores only,4,216,54,0.9277777777777778,0.8444444444444444
+Cardiovascular,LightGBM,Baseline (original features),5,216,54,0.9166666666666666,0.8163265306122449
+Cardiovascular,LightGBM,Original + network scores,5,216,54,0.9347222222222222,0.84
+Cardiovascular,LightGBM,Network scores only,5,216,54,0.8694444444444445,0.7659574468085106
+Cardiovascular,Random Forest,Baseline (original features),5,216,54,0.9576388888888889,0.875
+Cardiovascular,Random Forest,Original + network scores,5,216,54,0.9493055555555556,0.8936170212765957
+Cardiovascular,Random Forest,Network scores only,5,216,54,0.94375,0.851063829787234
+Cardiovascular,LightGBM,Baseline (original features),6,216,54,0.9291666666666667,0.8181818181818182
+Cardiovascular,LightGBM,Original + network scores,6,216,54,0.9222222222222223,0.7441860465116279
+Cardiovascular,LightGBM,Network scores only,6,216,54,0.8763888888888889,0.7659574468085106
+Cardiovascular,Random Forest,Baseline (original features),6,216,54,0.9090277777777778,0.8181818181818182
+Cardiovascular,Random Forest,Original + network scores,6,216,54,0.9090277777777779,0.7906976744186046
+Cardiovascular,Random Forest,Network scores only,6,216,54,0.9041666666666667,0.7391304347826086
+Cardiovascular,LightGBM,Baseline (original features),7,216,54,0.8819444444444444,0.7450980392156863
+Cardiovascular,LightGBM,Original + network scores,7,216,54,0.9097222222222222,0.8
+Cardiovascular,LightGBM,Network scores only,7,216,54,0.8708333333333333,0.8076923076923077
+Cardiovascular,Random Forest,Baseline (original features),7,216,54,0.8805555555555556,0.8
+Cardiovascular,Random Forest,Original + network scores,7,216,54,0.88125,0.8076923076923077
+Cardiovascular,Random Forest,Network scores only,7,216,54,0.8756944444444444,0.7924528301886793
+Cardiovascular,LightGBM,Baseline (original features),8,216,54,0.8958333333333334,0.7272727272727273
+Cardiovascular,LightGBM,Original + network scores,8,216,54,0.8958333333333334,0.7142857142857143
+Cardiovascular,LightGBM,Network scores only,8,216,54,0.8069444444444445,0.5853658536585366
+Cardiovascular,Random Forest,Baseline (original features),8,216,54,0.9319444444444445,0.7441860465116279
+Cardiovascular,Random Forest,Original + network scores,8,216,54,0.9006944444444444,0.7727272727272727
+Cardiovascular,Random Forest,Network scores only,8,216,54,0.8854166666666666,0.7619047619047619
+Cardiovascular,LightGBM,Baseline (original features),9,216,54,0.8458333333333333,0.75
+Cardiovascular,LightGBM,Original + network scores,9,216,54,0.8777777777777778,0.8
+Cardiovascular,LightGBM,Network scores only,9,216,54,0.7666666666666666,0.6122448979591837
+Cardiovascular,Random Forest,Baseline (original features),9,216,54,0.8583333333333333,0.7659574468085106
+Cardiovascular,Random Forest,Original + network scores,9,216,54,0.8784722222222222,0.7755102040816326
+Cardiovascular,Random Forest,Network scores only,9,216,54,0.76875,0.6538461538461539
+Cardiovascular,LightGBM,Baseline (original features),10,216,54,0.8958333333333334,0.8235294117647058
+Cardiovascular,LightGBM,Original + network scores,10,216,54,0.8875,0.7547169811320755
+Cardiovascular,LightGBM,Network scores only,10,216,54,0.8597222222222223,0.7692307692307693
+Cardiovascular,Random Forest,Baseline (original features),10,216,54,0.9034722222222222,0.8
+Cardiovascular,Random Forest,Original + network scores,10,216,54,0.8875000000000001,0.7692307692307693
+Cardiovascular,Random Forest,Network scores only,10,216,54,0.8798611111111111,0.7307692307692307
+Cardiovascular,LightGBM,Baseline (original features),11,216,54,0.8402777777777777,0.7659574468085106
+Cardiovascular,LightGBM,Original + network scores,11,216,54,0.8250000000000001,0.7391304347826086
+Cardiovascular,LightGBM,Network scores only,11,216,54,0.8083333333333333,0.7659574468085106
+Cardiovascular,Random Forest,Baseline (original features),11,216,54,0.8354166666666667,0.7916666666666666
+Cardiovascular,Random Forest,Original + network scores,11,216,54,0.8541666666666665,0.75
+Cardiovascular,Random Forest,Network scores only,11,216,54,0.8111111111111111,0.6666666666666666
+Cardiovascular,LightGBM,Baseline (original features),12,216,54,0.9138888888888889,0.84
+Cardiovascular,LightGBM,Original + network scores,12,216,54,0.9263888888888888,0.8163265306122449
+Cardiovascular,LightGBM,Network scores only,12,216,54,0.9125,0.782608695652174
+Cardiovascular,Random Forest,Baseline (original features),12,216,54,0.9277777777777778,0.8163265306122449
+Cardiovascular,Random Forest,Original + network scores,12,216,54,0.9270833333333334,0.8163265306122449
+Cardiovascular,Random Forest,Network scores only,12,216,54,0.925,0.8333333333333334
+Cardiovascular,LightGBM,Baseline (original features),13,216,54,0.875,0.7111111111111111
+Cardiovascular,LightGBM,Original + network scores,13,216,54,0.8986111111111111,0.7727272727272727
+Cardiovascular,LightGBM,Network scores only,13,216,54,0.8916666666666666,0.7619047619047619
+Cardiovascular,Random Forest,Baseline (original features),13,216,54,0.9034722222222222,0.8181818181818182
+Cardiovascular,Random Forest,Original + network scores,13,216,54,0.9381944444444444,0.8181818181818182
+Cardiovascular,Random Forest,Network scores only,13,216,54,0.9277777777777778,0.8095238095238095
+Cardiovascular,LightGBM,Baseline (original features),14,216,54,0.8583333333333333,0.7619047619047619
+Cardiovascular,LightGBM,Original + network scores,14,216,54,0.8791666666666667,0.6829268292682927
+Cardiovascular,LightGBM,Network scores only,14,216,54,0.7888888888888889,0.6976744186046512
+Cardiovascular,Random Forest,Baseline (original features),14,216,54,0.9194444444444445,0.8095238095238095
+Cardiovascular,Random Forest,Original + network scores,14,216,54,0.907638888888889,0.7906976744186046
+Cardiovascular,Random Forest,Network scores only,14,216,54,0.8638888888888889,0.7727272727272727
+Cardiovascular,LightGBM,Baseline (original features),15,216,54,0.8208333333333333,0.723404255319149
+Cardiovascular,LightGBM,Original + network scores,15,216,54,0.8472222222222222,0.7555555555555555
+Cardiovascular,LightGBM,Network scores only,15,216,54,0.8416666666666667,0.7346938775510204
+Cardiovascular,Random Forest,Baseline (original features),15,216,54,0.8208333333333334,0.7391304347826086
+Cardiovascular,Random Forest,Original + network scores,15,216,54,0.8458333333333334,0.75
+Cardiovascular,Random Forest,Network scores only,15,216,54,0.8305555555555555,0.75
+Cardiovascular,LightGBM,Baseline (original features),16,216,54,0.8680555555555556,0.7111111111111111
+Cardiovascular,LightGBM,Original + network scores,16,216,54,0.8694444444444445,0.6818181818181818
+Cardiovascular,LightGBM,Network scores only,16,216,54,0.8319444444444446,0.7346938775510204
+Cardiovascular,Random Forest,Baseline (original features),16,216,54,0.8534722222222222,0.7111111111111111
+Cardiovascular,Random Forest,Original + network scores,16,216,54,0.8618055555555556,0.7111111111111111
+Cardiovascular,Random Forest,Network scores only,16,216,54,0.8631944444444445,0.7083333333333334
+Cardiovascular,LightGBM,Baseline (original features),17,216,54,0.9680555555555554,0.8636363636363636
+Cardiovascular,LightGBM,Original + network scores,17,216,54,0.9472222222222222,0.8571428571428571
+Cardiovascular,LightGBM,Network scores only,17,216,54,0.9083333333333333,0.7906976744186046
+Cardiovascular,Random Forest,Baseline (original features),17,216,54,0.9736111111111111,0.9130434782608695
+Cardiovascular,Random Forest,Original + network scores,17,216,54,0.9763888888888889,0.9130434782608695
+Cardiovascular,Random Forest,Network scores only,17,216,54,0.9347222222222221,0.8181818181818182
+Cardiovascular,LightGBM,Baseline (original features),18,216,54,0.8944444444444444,0.7659574468085106
+Cardiovascular,LightGBM,Original + network scores,18,216,54,0.9041666666666667,0.7755102040816326
+Cardiovascular,LightGBM,Network scores only,18,216,54,0.9076388888888889,0.7916666666666666
+Cardiovascular,Random Forest,Baseline (original features),18,216,54,0.9256944444444444,0.8163265306122449
+Cardiovascular,Random Forest,Original + network scores,18,216,54,0.9416666666666667,0.875
+Cardiovascular,Random Forest,Network scores only,18,216,54,0.9375,0.851063829787234
+Cardiovascular,LightGBM,Baseline (original features),19,216,54,0.8388888888888889,0.75
+Cardiovascular,LightGBM,Original + network scores,19,216,54,0.8180555555555555,0.72
+Cardiovascular,LightGBM,Network scores only,19,216,54,0.8333333333333334,0.7755102040816326
+Cardiovascular,Random Forest,Baseline (original features),19,216,54,0.8701388888888889,0.75
+Cardiovascular,Random Forest,Original + network scores,19,216,54,0.8784722222222222,0.76
+Cardiovascular,Random Forest,Network scores only,19,216,54,0.8555555555555556,0.7755102040816326
+Cardiovascular,LightGBM,Baseline (original features),20,216,54,0.8833333333333334,0.8181818181818182
+Cardiovascular,LightGBM,Original + network scores,20,216,54,0.8708333333333333,0.7111111111111111
+Cardiovascular,LightGBM,Network scores only,20,216,54,0.8180555555555555,0.7555555555555555
+Cardiovascular,Random Forest,Baseline (original features),20,216,54,0.9118055555555555,0.8181818181818182
+Cardiovascular,Random Forest,Original + network scores,20,216,54,0.8993055555555556,0.8
+Cardiovascular,Random Forest,Network scores only,20,216,54,0.8333333333333334,0.7727272727272727
+Cardiovascular,LightGBM,Baseline (original features),21,216,54,0.8819444444444444,0.8076923076923077
+Cardiovascular,LightGBM,Original + network scores,21,216,54,0.8638888888888889,0.75
+Cardiovascular,LightGBM,Network scores only,21,216,54,0.8652777777777778,0.7843137254901961
+Cardiovascular,Random Forest,Baseline (original features),21,216,54,0.9256944444444445,0.8235294117647058
+Cardiovascular,Random Forest,Original + network scores,21,216,54,0.9347222222222222,0.8076923076923077
+Cardiovascular,Random Forest,Network scores only,21,216,54,0.8958333333333333,0.7924528301886793
+Cardiovascular,LightGBM,Baseline (original features),22,216,54,0.8736111111111111,0.7111111111111111
+Cardiovascular,LightGBM,Original + network scores,22,216,54,0.8625,0.7659574468085106
+Cardiovascular,LightGBM,Network scores only,22,216,54,0.9069444444444444,0.8444444444444444
+Cardiovascular,Random Forest,Baseline (original features),22,216,54,0.8798611111111111,0.7755102040816326
+Cardiovascular,Random Forest,Original + network scores,22,216,54,0.8895833333333334,0.7916666666666666
+Cardiovascular,Random Forest,Network scores only,22,216,54,0.8875,0.8444444444444444
+Cardiovascular,LightGBM,Baseline (original features),23,216,54,0.8472222222222222,0.7555555555555555
+Cardiovascular,LightGBM,Original + network scores,23,216,54,0.8472222222222222,0.7111111111111111
+Cardiovascular,LightGBM,Network scores only,23,216,54,0.8652777777777777,0.723404255319149
+Cardiovascular,Random Forest,Baseline (original features),23,216,54,0.8493055555555555,0.6666666666666666
+Cardiovascular,Random Forest,Original + network scores,23,216,54,0.8604166666666667,0.7555555555555555
+Cardiovascular,Random Forest,Network scores only,23,216,54,0.8763888888888889,0.7272727272727273
+Cardiovascular,LightGBM,Baseline (original features),24,216,54,0.9583333333333335,0.8936170212765957
+Cardiovascular,LightGBM,Original + network scores,24,216,54,0.9527777777777777,0.875
+Cardiovascular,LightGBM,Network scores only,24,216,54,0.9333333333333333,0.7719298245614035
+Cardiovascular,Random Forest,Baseline (original features),24,216,54,0.9715277777777778,0.8571428571428571
+Cardiovascular,Random Forest,Original + network scores,24,216,54,0.9680555555555556,0.8163265306122449
+Cardiovascular,Random Forest,Network scores only,24,216,54,0.94375,0.7777777777777778
+Renal,LightGBM,Baseline (original features),0,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,0,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,0,320,80,0.9763333333333334,0.9504950495049505
+Renal,Random Forest,Baseline (original features),0,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,0,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,0,320,80,0.984,0.9696969696969697
+Renal,LightGBM,Baseline (original features),1,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,1,320,80,0.9993333333333333,0.9900990099009901
+Renal,LightGBM,Network scores only,1,320,80,0.9966666666666666,0.9900990099009901
+Renal,Random Forest,Baseline (original features),1,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Original + network scores,1,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Network scores only,1,320,80,0.9986666666666667,0.9900990099009901
+Renal,LightGBM,Baseline (original features),2,320,80,1.0,0.9900990099009901
+Renal,LightGBM,Original + network scores,2,320,80,0.9976666666666667,0.9900990099009901
+Renal,LightGBM,Network scores only,2,320,80,0.9983333333333333,0.9900990099009901
+Renal,Random Forest,Baseline (original features),2,320,80,0.9996666666666667,0.9803921568627451
+Renal,Random Forest,Original + network scores,2,320,80,0.9993333333333334,0.9900990099009901
+Renal,Random Forest,Network scores only,2,320,80,0.9993333333333334,0.9900990099009901
+Renal,LightGBM,Baseline (original features),3,320,80,1.0,0.98989898989899
+Renal,LightGBM,Original + network scores,3,320,80,1.0,0.9795918367346939
+Renal,LightGBM,Network scores only,3,320,80,1.0,0.98989898989899
+Renal,Random Forest,Baseline (original features),3,320,80,1.0,0.98989898989899
+Renal,Random Forest,Original + network scores,3,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,3,320,80,1.0,0.98989898989899
+Renal,LightGBM,Baseline (original features),4,320,80,1.0,0.98989898989899
+Renal,LightGBM,Original + network scores,4,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,4,320,80,1.0,1.0
+Renal,Random Forest,Baseline (original features),4,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,4,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,4,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),5,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,5,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,5,320,80,1.0,0.98989898989899
+Renal,Random Forest,Baseline (original features),5,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,5,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,5,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),6,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,6,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,6,320,80,1.0,1.0
+Renal,Random Forest,Baseline (original features),6,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,6,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,6,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),7,320,80,0.9986666666666667,0.98989898989899
+Renal,LightGBM,Original + network scores,7,320,80,0.9986666666666667,0.98989898989899
+Renal,LightGBM,Network scores only,7,320,80,0.9936666666666667,0.98989898989899
+Renal,Random Forest,Baseline (original features),7,320,80,0.9986666666666667,0.9803921568627451
+Renal,Random Forest,Original + network scores,7,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Network scores only,7,320,80,0.9873333333333334,0.98989898989899
+Renal,LightGBM,Baseline (original features),8,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,8,320,80,1.0,0.98989898989899
+Renal,LightGBM,Network scores only,8,320,80,1.0,0.98989898989899
+Renal,Random Forest,Baseline (original features),8,320,80,0.9993333333333333,0.9900990099009901
+Renal,Random Forest,Original + network scores,8,320,80,0.9993333333333333,0.9900990099009901
+Renal,Random Forest,Network scores only,8,320,80,0.9993333333333333,0.98
+Renal,LightGBM,Baseline (original features),9,320,80,1.0,0.98989898989899
+Renal,LightGBM,Original + network scores,9,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,9,320,80,1.0,1.0
+Renal,Random Forest,Baseline (original features),9,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,9,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,9,320,80,1.0,0.98989898989899
+Renal,LightGBM,Baseline (original features),10,320,80,1.0,0.98989898989899
+Renal,LightGBM,Original + network scores,10,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,10,320,80,0.9913333333333333,0.9795918367346939
+Renal,Random Forest,Baseline (original features),10,320,80,1.0,0.98989898989899
+Renal,Random Forest,Original + network scores,10,320,80,1.0,0.98989898989899
+Renal,Random Forest,Network scores only,10,320,80,0.9869999999999999,0.98989898989899
+Renal,LightGBM,Baseline (original features),11,320,80,0.9993333333333333,0.98
+Renal,LightGBM,Original + network scores,11,320,80,1.0,0.98989898989899
+Renal,LightGBM,Network scores only,11,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Baseline (original features),11,320,80,0.9993333333333333,0.9803921568627451
+Renal,Random Forest,Original + network scores,11,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,11,320,80,0.9999999999999999,1.0
+Renal,LightGBM,Baseline (original features),12,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,12,320,80,0.9993333333333333,0.9690721649484536
+Renal,LightGBM,Network scores only,12,320,80,0.9953333333333333,0.98989898989899
+Renal,Random Forest,Baseline (original features),12,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,12,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,12,320,80,0.9853333333333334,0.98989898989899
+Renal,LightGBM,Baseline (original features),13,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,13,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,13,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Baseline (original features),13,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Original + network scores,13,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,13,320,80,0.9993333333333334,0.9900990099009901
+Renal,LightGBM,Baseline (original features),14,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,14,320,80,0.9986666666666667,0.9900990099009901
+Renal,LightGBM,Network scores only,14,320,80,0.999,0.9900990099009901
+Renal,Random Forest,Baseline (original features),14,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,14,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,14,320,80,0.9986666666666667,0.9900990099009901
+Renal,LightGBM,Baseline (original features),15,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,15,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,15,320,80,0.9973333333333333,0.9696969696969697
+Renal,Random Forest,Baseline (original features),15,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,15,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,15,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),16,320,80,1.0,0.98989898989899
+Renal,LightGBM,Original + network scores,16,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,16,320,80,1.0,0.9803921568627451
+Renal,Random Forest,Baseline (original features),16,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,16,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,16,320,80,1.0,0.9803921568627451
+Renal,LightGBM,Baseline (original features),17,320,80,0.998,0.9591836734693877
+Renal,LightGBM,Original + network scores,17,320,80,0.9973333333333333,0.9900990099009901
+Renal,LightGBM,Network scores only,17,320,80,0.9973333333333334,0.98
+Renal,Random Forest,Baseline (original features),17,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Original + network scores,17,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,17,320,80,0.9973333333333334,0.9900990099009901
+Renal,LightGBM,Baseline (original features),18,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,18,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,18,320,80,1.0,1.0
+Renal,Random Forest,Baseline (original features),18,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,18,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,18,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),19,320,80,0.9993333333333333,0.98989898989899
+Renal,LightGBM,Original + network scores,19,320,80,1.0,0.98989898989899
+Renal,LightGBM,Network scores only,19,320,80,1.0,0.98989898989899
+Renal,Random Forest,Baseline (original features),19,320,80,0.9993333333333334,0.98
+Renal,Random Forest,Original + network scores,19,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Network scores only,19,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),20,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,20,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,20,320,80,1.0,1.0
+Renal,Random Forest,Baseline (original features),20,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,20,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,20,320,80,1.0,1.0
+Renal,LightGBM,Baseline (original features),21,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,21,320,80,1.0,0.9795918367346939
+Renal,LightGBM,Network scores only,21,320,80,0.9933333333333333,0.98989898989899
+Renal,Random Forest,Baseline (original features),21,320,80,0.996,0.9702970297029703
+Renal,Random Forest,Original + network scores,21,320,80,0.9986666666666666,0.98989898989899
+Renal,Random Forest,Network scores only,21,320,80,0.988,0.9795918367346939
+Renal,LightGBM,Baseline (original features),22,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,22,320,80,1.0,0.98989898989899
+Renal,LightGBM,Network scores only,22,320,80,1.0,0.98989898989899
+Renal,Random Forest,Baseline (original features),22,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,22,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,22,320,80,0.9999999999999999,1.0
+Renal,LightGBM,Baseline (original features),23,320,80,1.0,1.0
+Renal,LightGBM,Original + network scores,23,320,80,1.0,0.9795918367346939
+Renal,LightGBM,Network scores only,23,320,80,0.9903333333333334,0.9583333333333334
+Renal,Random Forest,Baseline (original features),23,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,23,320,80,1.0,1.0
+Renal,Random Forest,Network scores only,23,320,80,0.9973333333333333,0.9696969696969697
+Renal,LightGBM,Baseline (original features),24,320,80,1.0,0.98989898989899
+Renal,LightGBM,Original + network scores,24,320,80,1.0,1.0
+Renal,LightGBM,Network scores only,24,320,80,0.9986666666666667,0.9795918367346939
+Renal,Random Forest,Baseline (original features),24,320,80,1.0,1.0
+Renal,Random Forest,Original + network scores,24,320,80,1.0,0.9900990099009901
+Renal,Random Forest,Network scores only,24,320,80,0.9993333333333334,0.98
+Liver,LightGBM,Baseline (original features),0,466,117,0.7489177489177489,0.7928994082840237
+Liver,LightGBM,Original + network scores,0,466,117,0.7243867243867244,0.8070175438596491
+Liver,LightGBM,Network scores only,0,466,117,0.708874458874459,0.7976878612716763
+Liver,Random Forest,Baseline (original features),0,466,117,0.7085137085137085,0.8
+Liver,Random Forest,Original + network scores,0,466,117,0.7121212121212122,0.782608695652174
+Liver,Random Forest,Network scores only,0,466,117,0.7422438672438673,0.8181818181818182
+Liver,LightGBM,Baseline (original features),1,466,117,0.6814316087880935,0.7590361445783133
+Liver,LightGBM,Original + network scores,1,466,117,0.7104890148830616,0.7719298245614035
+Liver,LightGBM,Network scores only,1,466,117,0.7771084337349398,0.8539325842696629
+Liver,Random Forest,Baseline (original features),1,466,117,0.6906449326718639,0.7909604519774012
+Liver,Random Forest,Original + network scores,1,466,117,0.7072997873848335,0.8089887640449438
+Liver,Random Forest,Network scores only,1,466,117,0.7895109851169383,0.8268156424581006
+Liver,LightGBM,Baseline (original features),2,466,117,0.7296243798724308,0.8021978021978022
+Liver,LightGBM,Original + network scores,2,466,117,0.7466335931963146,0.8044692737430168
+Liver,LightGBM,Network scores only,2,466,117,0.7806520198440823,0.8397790055248618
+Liver,Random Forest,Baseline (original features),2,466,117,0.7540751240255138,0.819672131147541
+Liver,Random Forest,Original + network scores,2,466,117,0.7763997165131112,0.8172043010752689
+Liver,Random Forest,Network scores only,2,466,117,0.7429128277817151,0.8068181818181818
+Liver,LightGBM,Baseline (original features),3,467,116,0.7345746622855057,0.7719298245614035
+Liver,LightGBM,Original + network scores,3,467,116,0.7528294998174516,0.813953488372093
+Liver,LightGBM,Network scores only,3,467,116,0.7342095655348667,0.8023255813953488
+Liver,Random Forest,Baseline (original features),3,467,116,0.7550200803212852,0.8089887640449438
+Liver,Random Forest,Original + network scores,3,467,116,0.7913472070098576,0.8409090909090909
+Liver,Random Forest,Network scores only,3,467,116,0.7444322745527565,0.8160919540229885
+Liver,LightGBM,Baseline (original features),4,467,116,0.7977364001460386,0.8409090909090909
+Liver,LightGBM,Original + network scores,4,467,116,0.8393574297188755,0.847457627118644
+Liver,LightGBM,Network scores only,4,467,116,0.7758305951077036,0.7953216374269005
+Liver,Random Forest,Baseline (original features),4,467,116,0.809784592917123,0.8540540540540541
+Liver,Random Forest,Original + network scores,4,467,116,0.8132530120481927,0.8351648351648352
+Liver,Random Forest,Network scores only,4,467,116,0.74662285505659,0.8202247191011236
+Liver,LightGBM,Baseline (original features),5,466,117,0.6724386724386725,0.7771428571428571
+Liver,LightGBM,Original + network scores,5,466,117,0.6702741702741702,0.7314285714285714
+Liver,LightGBM,Network scores only,5,466,117,0.7330447330447329,0.7904191616766467
+Liver,Random Forest,Baseline (original features),5,466,117,0.7211399711399712,0.797752808988764
+Liver,Random Forest,Original + network scores,5,466,117,0.7393578643578643,0.7909604519774012
+Liver,Random Forest,Network scores only,5,466,117,0.7267316017316017,0.8117647058823529
+Liver,LightGBM,Baseline (original features),6,466,117,0.721119773210489,0.7861271676300579
+Liver,LightGBM,Original + network scores,6,466,117,0.7409638554216866,0.7931034482758621
+Liver,LightGBM,Network scores only,6,466,117,0.7512402551381998,0.8268156424581006
+Liver,Random Forest,Baseline (original features),6,466,117,0.7391920623671155,0.7954545454545454
+Liver,Random Forest,Original + network scores,6,466,117,0.7388377037562013,0.8068181818181818
+Liver,Random Forest,Network scores only,6,466,117,0.72413182140326,0.8068181818181818
+Liver,LightGBM,Baseline (original features),7,466,117,0.7629340892983701,0.8253968253968254
+Liver,LightGBM,Original + network scores,7,466,117,0.7771084337349398,0.8235294117647058
+Liver,LightGBM,Network scores only,7,466,117,0.7820694542877392,0.8379888268156425
+Liver,Random Forest,Baseline (original features),7,466,117,0.760099220411056,0.8210526315789474
+Liver,Random Forest,Original + network scores,7,466,117,0.7895109851169384,0.8315789473684211
+Liver,Random Forest,Network scores only,7,466,117,0.7810063784549965,0.8709677419354839
+Liver,LightGBM,Baseline (original features),8,467,116,0.7594012413289521,0.8390804597701149
+Liver,LightGBM,Original + network scores,8,467,116,0.7641474990872582,0.813953488372093
+Liver,LightGBM,Network scores only,8,467,116,0.6927710843373494,0.8143712574850299
+Liver,Random Forest,Baseline (original features),8,467,116,0.7568455640744797,0.8426966292134831
+Liver,Random Forest,Original + network scores,8,467,116,0.7696239503468421,0.8379888268156425
+Liver,Random Forest,Network scores only,8,467,116,0.7053669222343921,0.8255813953488372
+Liver,LightGBM,Baseline (original features),9,467,116,0.723986856516977,0.7784431137724551
+Liver,LightGBM,Original + network scores,9,467,116,0.7495436290617014,0.8072289156626506
+Liver,LightGBM,Network scores only,9,467,116,0.7320189850310331,0.7885714285714286
+Liver,Random Forest,Baseline (original features),9,467,116,0.7792990142387733,0.8275862068965517
+Liver,Random Forest,Original + network scores,9,467,116,0.7659729828404527,0.8228571428571428
+Liver,Random Forest,Network scores only,9,467,116,0.755750273822563,0.8023255813953488
+Liver,LightGBM,Baseline (original features),10,466,117,0.6626984126984127,0.7796610169491526
+Liver,LightGBM,Original + network scores,10,466,117,0.6695526695526696,0.7411764705882353
+Liver,LightGBM,Network scores only,10,466,117,0.7644300144300145,0.8284023668639053
+Liver,Random Forest,Baseline (original features),10,466,117,0.6971500721500721,0.8176795580110497
+Liver,Random Forest,Original + network scores,10,466,117,0.7222222222222222,0.8021978021978022
+Liver,Random Forest,Network scores only,10,466,117,0.726010101010101,0.7931034482758621
+Liver,LightGBM,Baseline (original features),11,466,117,0.7097802976612331,0.8
+Liver,LightGBM,Original + network scores,11,466,117,0.7374202693125443,0.8361581920903954
+Liver,LightGBM,Network scores only,11,466,117,0.7335223245924876,0.8
+Liver,Random Forest,Baseline (original features),11,466,117,0.7585046066619419,0.8295454545454546
+Liver,Random Forest,Original + network scores,11,466,117,0.7459248759744861,0.8268156424581006
+Liver,Random Forest,Network scores only,11,466,117,0.7262579730687455,0.8390804597701149
+Liver,LightGBM,Baseline (original features),12,466,117,0.797661233167966,0.8092485549132948
+Liver,LightGBM,Original + network scores,12,466,117,0.8373493975903614,0.8255813953488372
+Liver,LightGBM,Network scores only,12,466,117,0.8433734939759037,0.8505747126436781
+Liver,Random Forest,Baseline (original features),12,466,117,0.7990786676116229,0.7906976744186046
+Liver,Random Forest,Original + network scores,12,466,117,0.8059886605244507,0.8160919540229885
+Liver,Random Forest,Network scores only,12,466,117,0.8068745570517364,0.847457627118644
+Liver,LightGBM,Baseline (original features),13,467,116,0.6980649872216137,0.7745664739884393
+Liver,LightGBM,Original + network scores,13,467,116,0.70609711573567,0.7790697674418605
+Liver,LightGBM,Network scores only,13,467,116,0.782767433369843,0.8072289156626506
+Liver,Random Forest,Baseline (original features),13,467,116,0.762139466958744,0.8114285714285714
+Liver,Random Forest,Original + network scores,13,467,116,0.7674333698430083,0.8
+Liver,Random Forest,Network scores only,13,467,116,0.7663380795910917,0.7852760736196319
+Liver,LightGBM,Baseline (original features),14,467,116,0.7667031763417305,0.8248587570621468
+Liver,LightGBM,Original + network scores,14,467,116,0.7382256297918949,0.8
+Liver,LightGBM,Network scores only,14,467,116,0.7159547280029207,0.7692307692307693
+Liver,Random Forest,Baseline (original features),14,467,116,0.7170500182548375,0.8268156424581006
+Liver,Random Forest,Original + network scores,14,467,116,0.7415115005476451,0.8287292817679558
+Liver,Random Forest,Network scores only,14,467,116,0.721613727637824,0.8248587570621468
+Liver,LightGBM,Baseline (original features),15,466,117,0.6969696969696969,0.7657142857142857
+Liver,LightGBM,Original + network scores,15,466,117,0.7175324675324676,0.8268156424581006
+Liver,LightGBM,Network scores only,15,466,117,0.7566738816738816,0.7831325301204819
+Liver,Random Forest,Baseline (original features),15,466,117,0.7604617604617605,0.8176795580110497
+Liver,Random Forest,Original + network scores,15,466,117,0.7548701298701298,0.8397790055248618
+Liver,Random Forest,Network scores only,15,466,117,0.7619047619047619,0.813953488372093
+Liver,LightGBM,Baseline (original features),16,466,117,0.690644932671864,0.8
+Liver,LightGBM,Original + network scores,16,466,117,0.7406094968107725,0.8087431693989071
+Liver,LightGBM,Network scores only,16,466,117,0.7152728561304038,0.8044692737430168
+Liver,Random Forest,Baseline (original features),16,466,117,0.7158043940467752,0.7978723404255319
+Liver,Random Forest,Original + network scores,16,466,117,0.7152728561304039,0.8108108108108109
+Liver,Random Forest,Network scores only,16,466,117,0.692239546420978,0.819672131147541
+Liver,LightGBM,Baseline (original features),17,466,117,0.8320340184266477,0.8092485549132948
+Liver,LightGBM,Original + network scores,17,466,117,0.82388377037562,0.8457142857142858
+Liver,LightGBM,Network scores only,17,466,117,0.7489369241672572,0.7976878612716763
+Liver,Random Forest,Baseline (original features),17,466,117,0.8098866052445075,0.8222222222222222
+Liver,Random Forest,Original + network scores,17,466,117,0.8334514528703046,0.8415300546448088
+Liver,Random Forest,Network scores only,17,466,117,0.7964209780297662,0.8022598870056498
+Liver,LightGBM,Baseline (original features),18,467,116,0.674698795180723,0.7738095238095238
+Liver,LightGBM,Original + network scores,18,467,116,0.7064622124863089,0.8023952095808383
+Liver,LightGBM,Network scores only,18,467,116,0.674698795180723,0.7647058823529411
+Liver,Random Forest,Baseline (original features),18,467,116,0.7210660825118657,0.8275862068965517
+Liver,Random Forest,Original + network scores,18,467,116,0.7188755020080323,0.7831325301204819
+Liver,Random Forest,Network scores only,18,467,116,0.6987951807228915,0.7926829268292683
+Liver,LightGBM,Baseline (original features),19,467,116,0.6513326031398321,0.7861271676300579
+Liver,LightGBM,Original + network scores,19,467,116,0.6827309236947791,0.8
+Liver,LightGBM,Network scores only,19,467,116,0.6976998904709748,0.7906976744186046
+Liver,Random Forest,Baseline (original features),19,467,116,0.6986126323475721,0.8089887640449438
+Liver,Random Forest,Original + network scores,19,467,116,0.7022635998539613,0.8044692737430168
+Liver,Random Forest,Network scores only,19,467,116,0.7059145673603505,0.8114285714285714
+Liver,LightGBM,Baseline (original features),20,466,117,0.7380952380952381,0.7764705882352941
+Liver,LightGBM,Original + network scores,20,466,117,0.7272727272727273,0.7719298245614035
+Liver,LightGBM,Network scores only,20,466,117,0.8073593073593074,0.8433734939759037
+Liver,Random Forest,Baseline (original features),20,466,117,0.7498196248196248,0.7865168539325843
+Liver,Random Forest,Original + network scores,20,466,117,0.7619047619047619,0.7840909090909091
+Liver,Random Forest,Network scores only,20,466,117,0.7667748917748918,0.8333333333333334
+Liver,LightGBM,Baseline (original features),21,466,117,0.7285613040396882,0.8045977011494253
+Liver,LightGBM,Original + network scores,21,466,117,0.7374202693125443,0.7816091954022989
+Liver,LightGBM,Network scores only,21,466,117,0.7009213323883772,0.7745664739884393
+Liver,Random Forest,Baseline (original features),21,466,117,0.7411410347271439,0.8023255813953488
+Liver,Random Forest,Original + network scores,21,466,117,0.744153082919915,0.7840909090909091
+Liver,Random Forest,Network scores only,21,466,117,0.6911764705882353,0.7955801104972375
+Liver,LightGBM,Baseline (original features),22,466,117,0.6817859673990077,0.7931034482758621
+Liver,LightGBM,Original + network scores,22,466,117,0.7360028348688873,0.7976190476190477
+Liver,LightGBM,Network scores only,22,466,117,0.721119773210489,0.7804878048780488
+Liver,Random Forest,Baseline (original features),22,466,117,0.7434443656980865,0.8135593220338984
+Liver,Random Forest,Original + network scores,22,466,117,0.7361800141743445,0.7928994082840237
+Liver,Random Forest,Network scores only,22,466,117,0.7147413182140326,0.8023952095808383
+Liver,LightGBM,Baseline (original features),23,467,116,0.7290982110259219,0.8070175438596491
+Liver,LightGBM,Original + network scores,23,467,116,0.7813070463672873,0.8117647058823529
+Liver,LightGBM,Network scores only,23,467,116,0.7900693683826214,0.8263473053892215
+Liver,Random Forest,Baseline (original features),23,467,116,0.7665206279664111,0.8176795580110497
+Liver,Random Forest,Original + network scores,23,467,116,0.7814895947426068,0.8181818181818182
+Liver,Random Forest,Network scores only,23,467,116,0.7928075940124133,0.8228571428571428
+Liver,LightGBM,Baseline (original features),24,467,116,0.714859437751004,0.8287292817679558
+Liver,LightGBM,Original + network scores,24,467,116,0.7389558232931728,0.8222222222222222
+Liver,LightGBM,Network scores only,24,467,116,0.714859437751004,0.8165680473372781
+Liver,Random Forest,Baseline (original features),24,467,116,0.7119386637458927,0.8131868131868132
+Liver,Random Forest,Original + network scores,24,467,116,0.7460752099306316,0.8461538461538461
+Liver,Random Forest,Network scores only,24,467,116,0.7632347572106608,0.8295454545454546

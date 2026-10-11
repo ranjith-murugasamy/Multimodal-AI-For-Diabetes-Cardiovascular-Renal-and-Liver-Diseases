@@ -1,0 +1,189 @@
+{
+    "disclaimer": "Demonstration only: these uncalibrated scores are not probabilities, diagnoses, or clinical advice.",
+    "model_status": "illustrative_unvalidated",
+    "results": [
+        {
+            "band": "Review",
+            "clinical_score": 53,
+            "color": "#bb653d",
+            "contributions": [
+                {
+                    "contribution": 7.3,
+                    "feature": "BMI",
+                    "modality": "Clinical",
+                    "value": 32.0
+                },
+                {
+                    "contribution": 5.2,
+                    "feature": "Blood glucose",
+                    "modality": "Clinical",
+                    "value": 165.0
+                },
+                {
+                    "contribution": 3.6,
+                    "feature": "Frequent Urination",
+                    "modality": "Note",
+                    "value": true
+                },
+                {
+                    "contribution": 3.0,
+                    "feature": "Excessive Thirst",
+                    "modality": "Note",
+                    "value": true
+                },
+                {
+                    "contribution": 2.9,
+                    "feature": "Systolic blood pressure",
+                    "modality": "Clinical",
+                    "value": 148.0
+                }
+            ],
+            "key": "diabetes",
+            "matched_note_cues": [
+                "Frequent Urination",
+                "Excessive Thirst"
+            ],
+            "name": "Diabetes",
+            "score": 49,
+            "short": "DM",
+            "text_score": 40
+        },
+        {
+            "band": "Review",
+            "clinical_score": 60,
+            "color": "#b74755",
+            "contributions": [
+                {
+                    "contribution": 8.4,
+                    "feature": "Smoking status",
+                    "modality": "Clinical",
+                    "value": 1.0
+                },
+                {
+                    "contribution": 6.1,
+                    "feature": "Systolic blood pressure",
+                    "modality": "Clinical",
+                    "value": 148.0
+                },
+                {
+                    "contribution": 4.8,
+                    "feature": "Chest Pain",
+                    "modality": "Note",
+                    "value": true
+                },
+                {
+                    "contribution": 3.4,
+                    "feature": "Total cholesterol",
+                    "modality": "Clinical",
+                    "value": 240.0
+                },
+                {
+                    "contribution": 2.5,
+                    "feature": "Age",
+                    "modality": "Clinical",
+                    "value": 58.0
+                }
+            ],
+            "key": "cardiovascular",
+            "matched_note_cues": [
+                "Chest Pain"
+            ],
+            "name": "Cardiovascular",
+            "score": 52,
+            "short": "CVD",
+            "text_score": 34
+        },
+        {
+            "band": "Review",
+            "clinical_score": 50,
+            "color": "#487798",
+            "contributions": [
+                {
+                    "contribution": 8.3,
+                    "feature": "eGFR",
+                    "modality": "Clinical",
+                    "value": 52.0
+                },
+                {
+                    "contribution": 4.8,
+                    "feature": "Elevated Creatinine",
+                    "modality": "Note",
+                    "value": true
+                },
+                {
+                    "contribution": 2.9,
+                    "feature": "Systolic blood pressure",
+                    "modality": "Clinical",
+                    "value": 148.0
+                },
+                {
+                    "contribution": 1.7,
+                    "feature": "Creatinine",
+                    "modality": "Clinical",
+                    "value": 1.6
+                },
+                {
+                    "contribution": 1.7,
+                    "feature": "Blood glucose",
+                    "modality": "Clinical",
+                    "value": 165.0
+                }
+            ],
+            "key": "renal",
+            "matched_note_cues": [
+                "Elevated Creatinine"
+            ],
+            "name": "Renal",
+            "score": 46,
+            "short": "CKD",
+            "text_score": 34
+        },
+        {
+            "band": "Lower",
+            "clinical_score": 36,
+            "color": "#758749",
+            "contributions": [
+                {
+                    "contribution": 2.7,
+                    "feature": "BMI",
+                    "modality": "Clinical",
+                    "value": 32.0
+                },
+                {
+                    "contribution": 1.5,
+                    "feature": "ALT",
+                    "modality": "Clinical",
+                    "value": 55.0
+                },
+                {
+                    "contribution": 0.9,
+                    "feature": "Age",
+                    "modality": "Clinical",
+                    "value": 58.0
+                },
+                {
+                    "contribution": 0.4,
+                    "feature": "AST",
+                    "modality": "Clinical",
+                    "value": 48.0
+                },
+                {
+                    "contribution": 0.0,
+                    "feature": "Alcohol use noted",
+                    "modality": "Clinical",
+                    "value": 0.0
+                }
+            ],
+            "key": "liver",
+            "matched_note_cues": [],
+            "name": "Liver",
+            "score": 30,
+            "short": "CLD",
+            "text_score": 18
+        }
+    ],
+    "weights": {
+        "clinical": 0.7,
+        "text": 0.3
+    }
+}

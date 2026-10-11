@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+catboost
+shap
+matplotlib
+scipy
+pypdf
+python-docx
+reportlab
+networkx
